@@ -1,0 +1,136 @@
+##################################################################
+#                                                                #
+# Koeppen Climate Classification events written by chatnoir17 #
+#                                                                #
+##################################################################
+
+## Seasonal events
+
+# Spring
+
+character_event = {
+	id = 1000053000
+	desc = "EVTDESC1000053000"
+
+	trigger = {
+		ai = yes
+		month = 2
+		Not = { month = 5 }
+		Not = { has_global_flag = spring_season }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA1000053000"
+		clr_global_flag = winter_season
+		set_global_flag = spring_season
+		1 = {
+			remove_province_modifier = dfb_port_winter
+			add_province_modifier = {
+				name = dfb_port_spring
+				duration = 100
+			}
+		}
+	}
+}
+
+# Summer
+
+character_event = {
+	id = 1000053001
+	desc = "EVTDESC1000053001"
+
+	trigger = {
+		ai = yes
+		month = 5
+		Not = { month = 8 }
+		Not = { has_global_flag = summer_season }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA1000053001"
+		clr_global_flag = spring_season
+		set_global_flag = summer_season
+		1 = {
+			remove_province_modifier = dfb_port_spring
+			add_province_modifier = {
+				name = dfb_port_summer
+				duration = 100
+			}
+		}
+	}
+}
+
+# Autumn
+
+character_event = {
+	id = 1000053002
+	desc = "EVTDESC1000053002"
+
+	trigger = {
+		ai = yes
+		month = 8
+		Not = { month = 11 }
+		Not = { has_global_flag = autumn_season }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA1000053002"
+		clr_global_flag = summer_season
+		set_global_flag = autumn_season
+		1 = {
+			remove_province_modifier = dfb_port_summer
+			add_province_modifier = {
+				name = dfb_port_autumn
+				duration = 100
+			}
+		}
+	}
+}
+
+# Winter
+
+character_event = {
+	id = 1000053003
+	desc = "EVTDESC1000053003"
+
+	trigger = {
+		ai = yes
+		Or = { 
+			month = 11
+			And = {
+				month = 0
+				Not = { month = 2 }
+			}
+		}
+		Not = { has_global_flag = winter_season }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA1000053003"
+		clr_global_flag = autumn_season
+		set_global_flag = winter_season
+		1 = {
+			remove_province_modifier = dfb_port_autumn
+			add_province_modifier = {
+				name = dfb_port_winter
+				duration = 100
+			}
+		}
+	}
+}
