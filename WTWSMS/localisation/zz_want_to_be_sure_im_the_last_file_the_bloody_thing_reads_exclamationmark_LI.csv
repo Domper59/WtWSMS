@@ -1,12 +1,12 @@
 #CODE;ENGLISH;;;;;;;;;;;;;x
-religious_tolerance;Religious Tolerance;;;;;;;;;;;;;x
-tolerance_0;Tolerant Policy;;;;;;;;;;;;;x
-tolerance_0_desc;The realm is tolerant of other religions. This means higher religious flexibility but lower chance to convert provinces.;;;;;;;;;;;;;x
-tolerance_0_option;Tolerant;;;;;;;;;;;;;x
-tolerance_1;Indifferent;;;;;;;;;;;;;x
-tolerance_1_desc;The realm is indifferent of other religions. This is the neutral stance and provides no benefits or inconveniences.;;;;;;;;;;;;;x
-tolerance_1_option;Indifferent;;;;;;;;;;;;;x
-tolerance_2;Intolerant Policy;;;;;;;;;;;;;x
-tolerance_2_desc;The realm is intolerant to other religions. This means lower religious flexibility but higher chance to convert provinces and the possibility to wage war against blasphemous rulers and religious enemies. Effective enforcement of this policy requires a sufficient degree of centralization.;;;;;;;;;;;;;x
-tolerance_2_option;Intolerant;;;;;;;;;;;;;x
-religious_tolerance_desc;The Religious Tolerance of your realm determines the policy towards foreign religions in your realm. Tolerant realms will have lower chance to convert provinces while Intolerant ones will have higher chances in addition to having more opportunities to wage religious wars.;;;;;;;;;;;;;x
+religious_tolerance;Religious Tolerance;Tolerance Religieuse;;;;;;;;;;;;x
+tolerance_0;Tolerant Policy;Politique Tolerante;;;;;;;;;;;;x
+tolerance_0_desc;The realm is tolerant of other religions. This means higher religious flexibility but lower chance to convert provinces.;Le royaume tolere les autres religions. Cela signifie une plus grande flexibilite religieuse mais moins de chances de convertir les provinces.;;;;;;;;;;;;x
+tolerance_0_option;Tolerant;Tolerant;;;;;;;;;;;;x
+tolerance_1;Indifferent;Indifferent;;;;;;;;;;;;x
+tolerance_1_desc;The realm is indifferent of other religions. This is the neutral stance and provides no benefits or inconveniences.;Le royaume est indifferent aux autres religions. C'est une position neutre et ne fournit aucun avantage ou inconvenient.;;;;;;;;;;;;x
+tolerance_1_option;Indifferent;Indifferent;;;;;;;;;;;;x
+tolerance_2;Intolerant Policy;Politique Intolerante;;;;;;;;;;;;x
+tolerance_2_desc;The realm is intolerant to other religions. This means lower religious flexibility but higher chance to convert provinces and the possibility to wage war against blasphemous rulers and religious enemies. Effective enforcement of this policy requires a sufficient degree of centralization.;Le royaume est intolerant aux d'autres religions. Cela signifie une flexibilite religieuse inferieure, mais une plus grande chance de convertir les provinces et la possibilite de faire la guerre a des dirigeants blasphematoires et a des ennemis religieux. L'application effective de cette politique necessite un degre de centralisation suffisant.;;;;;;;;;;;;x
+tolerance_2_option;Intolerant;Intolerante;;;;;;;;;;;;x
+religious_tolerance_desc;The Religious Tolerance of your realm determines the policy towards foreign religions in your realm. Tolerant realms will have lower chance to convert provinces while Intolerant ones will have higher chances in addition to having more opportunities to wage religious wars.;La tolerance religieuse de votre royaume determine la politique a l'egard des religions etrangeres dans votre royaume. Les royaumes tolerants auront moins de chances de convertir les provinces, tandis que les intolerants auront des chances plus elevees d'en plus d'avoir, plus d'avoir la possibilites de faire des guerres religieuses.;;;;;;;;;;;;x
